@@ -144,7 +144,7 @@ export function saveLikedPostsToStorage(likedPosts) {
 export async function copyToClipboard(text) {
     try {
         await navigator.clipboard.writeText(text); // 비동기적으로 텍스트를 클립보드에 복사
-        alert('링크가 클립보드에 복사되었습니다!'); // 성공 메시지 표시
+        alert('링크를 복사했습니다! 다른데 퍼날라주세용!'); // 성공 메시지 표시
     } catch (err) {
         alert('복사에 실패했습니다. 수동으로 복사해주세요: ' + text); // 실패 메시지 및 수동 복사 안내
     }
